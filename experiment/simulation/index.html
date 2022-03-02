@@ -242,7 +242,7 @@ $('#thetaspinner').spinner("enable");
 $('#omegaslider').slider("disable"); 
 $('#omegaspinner').spinner("disable"); 
 theta=$('#thetaspinner').spinner("value");
-printcomment("Acceleration (mm<sup>2</sup>/s) <br> a = -"+ omega +"<sup>2</sup> &times; "+ l +" &times; cos("+theta+"&deg;)</br>= "+ roundd(-omega*omega*l*Math.cos(rad(theta)),2),2);
+printcomment("Acceleration (mm/s<sup>2</sup>) <br> a = -"+ omega +"<sup>2</sup> &times; "+ l +" &times; cos("+theta+"&deg;)</br>= "+ roundd(-omega*omega*l*Math.cos(rad(theta)),2),2);
 }
 
 o.xcoord=0;
