@@ -1,0 +1,85 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question":"Acceleration of reciprocating part is maximum for scotch yoke mechanism when crank angle is ?",
+        "answers": {
+          "a": "0<sup>o</sup>",
+          "b": "90<sup>o</sup>",
+          "c": "30<sup>o</sup>",
+          "d": "60<sup>o</sup>"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
+      },
+      {
+        "question": "Amplitude of acceleration of reciprocating part of scotch yoke mechanism depends on?",
+        "answers": {
+          "a": "crank length only",
+          "b": "angular velocity of crank only",
+          "c": "both crank length and angular velocity of crank",
+          "d": "None of these"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "c",
+        "difficulty": ""
+      },
+      {
+        "question": "Phase difference between displacement and acceleration of reciprocating part in scotch yoke mechanism is 180<sup>o</sup>",
+        "answers": {
+          "a": "false",
+          "b": "true"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "b",
+        "difficulty": ""
+      },
+      {
+        "question": "For a crank length of 10cm rotating at 2rad/s what is the magnitude of maximum acceleration of reciprocating part",
+        "answers": {
+          "a": "20cm/s",
+          "b": "10cm/s)",
+          "c": "40cm/s",
+          "d": "None of these"
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "c",
+        "difficulty": ""
+      },
+      {
+        "question": "a=-&omega;<sup>2</sup>x for scotch yoke mechanism ",
+        "answers": {
+          "a": "True",
+          "b": "False"
+        },
+        "explanations": {
+          "a": "",
+          "b": ""
+        },
+        "correctAnswer": "a",
+        "difficulty": ""
+      }
+    ]
+  }
+  

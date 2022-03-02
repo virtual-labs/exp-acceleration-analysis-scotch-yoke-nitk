@@ -1,0 +1,1 @@
+* Change parameters under variables section and notice the effect of changes in the position, velcity and acceleration of the scotch yoke mechanism.
