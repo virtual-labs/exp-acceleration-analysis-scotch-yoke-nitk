@@ -174,8 +174,8 @@ em:current font size
     height: 0.6rem;
   }
   .logo-div {
-    width: 5rem;
-    /* padding: 0.8rem 0 0.8rem 3.3rem; */
+    width: 8.5rem;
+    padding: 0.8rem 0 0.8rem 3.3rem;
   }
   .main__task-div:nth-child(4) {
     margin-bottom: 6rem;
@@ -200,14 +200,11 @@ em:current font size
 /* **************************** */
 @media (max-width: 34em) {
   .title-div-container {
-    /* padding: 0.5rem 0.5rem 0rem 0.5rem; */
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
   }
   .container {
-    /* padding: 0.5rem; */
+    padding: 0.5rem;
     gap: 1rem;
-  }
-  .logo-div {
-    width: 4rem;
   }
 
   .title-div h1 {
