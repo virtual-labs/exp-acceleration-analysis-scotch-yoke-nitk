@@ -10,6 +10,10 @@ em:current font size
 /* **************************** */
 
 @media (max-width: 84em) {
+  body {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
 }
 
 /* **************************** */
@@ -17,10 +21,6 @@ em:current font size
 /* **************************** */
 
 @media (max-width: 75em) {
-  body {
-    width: 100%;
-    margin: unset;
-  }
   .title-div h1 {
     font-size: 2.5rem;
   }
@@ -55,6 +55,10 @@ em:current font size
 /* **************************** */
 
 @media (max-width: 59em) {
+  body {
+    margin: 0;
+    width: 100%;
+  }
   .tool-link:link,
   .tool-link:visited {
     gap: 0.5rem;
@@ -82,15 +86,10 @@ em:current font size
     justify-content: space-evenly;
     border-radius: 0;
     scroll-behavior: auto;
-    /* background: linear-gradient(
-      to bottom,
-      #f7c3a9da,
-      #c17a53da,
-      #c17a53da,
-      #c17a53da,
-      #c17a53da,
-      #311b10da
-    ); */
+    margin: 0;
+  }
+  .main {
+    grid-column: 1/-1;
   }
   .tool-menu {
     list-style: none;
@@ -174,8 +173,7 @@ em:current font size
     height: 0.6rem;
   }
   .logo-div {
-    width: 8.5rem;
-    padding: 0.8rem 0 0.8rem 3.3rem;
+    width: 6rem;
   }
   .main__task-div:nth-child(4) {
     margin-bottom: 6rem;
@@ -199,12 +197,8 @@ em:current font size
 /* Below 540px (Smaller Tablets) */
 /* **************************** */
 @media (max-width: 34em) {
-  .title-div-container {
-    padding: 0.5rem 0.5rem 0rem 0.5rem;
-  }
   .container {
-    padding: 0.5rem;
-    gap: 1rem;
+    gap: 0;
   }
 
   .title-div h1 {
@@ -233,7 +227,9 @@ em:current font size
     font-size: 1.5rem;
   }
   .main {
-    gap: 0.5rem;
+    margin-top: 0.05rem;
+
+    /* gap: 0.5rem; */
   }
   .main-section {
     gap: 0.5rem;

@@ -36,12 +36,12 @@ h3 {
 }
 
 ::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.25rem;
   left: -5rem;
 }
 
 ::-moz-scrollbar {
-  width: 0.5rem;
+  width: 0.25rem;
   left: -5rem;
 }
 
